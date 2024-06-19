@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    font-family: "Oswald", sans-serif!important;
+    scroll-behavior: smooth;
+    }
+
+header{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center;
+    background-color:#F9B7A9;  
+}
+.logo-container{
+    font-size: 30px;
+    margin-left: 80px;
+    color: white;
+}
+.navigation-bar{
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#F9B7A9;  
+}
+.dropdown {
+    position: relative;
+}
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    color: white;
+    cursor: pointer;
+}
+button{
+    background-color: transparent;
+}
+.dropdown .dropbtn:hover{
+background-color: #a49a9d;
+color: white;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+#center {  
+    width: 100%;
+    max-width: 100%;
+    background-size: fill;
+    height: 150px;    
+    background-color: lightgreen;  
+    object-fit:cover;  
+    margin-top: 2%;
+    
+    } 
+.ndhome{
+    align-items: center;
+    text-align: center;
+    font-weight: light;
+}
+.mainhome{
+    position: relative;
+    text-align: center;
+}
+.centere {
+    font-size: 40px;
+    color: aliceblue;
+    background-color:#F9B7A9;  
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+  }
+  
+  .centered {
+    font-size: 40px;
+    color: aliceblue;
+    background-color:#F9B7A9;  
+    position: absolute;
+    top: 20%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+  .btn-order {
+    background: #E8636F;
+    color: white;
+    text-align: center;
+    width: 140px;
+    height: 100px;
+    font-size: 20px;
+    line-height: 1.3;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+  }
+  .btn-wedding {
+    background: #E8636F;
+    color: white;
+    text-align: center;
+    width: 140px;
+    height: 100px;
+    font-size: 20px;
+    line-height: 1.3;
+    border-radius: 50%;
+    position: absolute;
+    top: 57%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+  }
+.btn-order:hover{
+    background-color: white;
+    color: #E8636F;
+    cursor: pointer;
+
+}
+.btn-wedding:hover{
+    background-color: white;
+    color: #E8636F;
+    cursor: pointer;
+
+}
+.btn{
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 20px;
+}
+.sub{
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.sub:hover{
+    background-color:#a49a9d ;
+    cursor: pointer;
+
+}
+.features {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-item {
+    background-color: white;
+    width: 30%;
+}
+.head{
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+.price{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+    line-height: 1em;
+}
+
+.price-item{
+    background-color: white;
+    width: 25%;
+}
+.price-item p{
+    font-size: 20px;
+}
+.price-item p:hover {
+    color: #ff9770;    
+    cursor: pointer;
+ 
+}
+.price-item a{
+    font-size: 19px;
+    font-weight: light;
+}
+.paragraph{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.parag{
+    font-size: 18px;
+}
+.footer{
+    background-color:#F48B7F;  
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 50px;
+    color: white;
+    font: 30px;
+}
+.email{
+    justify-content: space-between;
+    padding: 20px 32px;
+}
+input[type="email"]
+{ 
+    padding: 9px;
+    font-size: 19px;
+    border: 1px solid #E9636E ;
+    padding-left: 20px;
+}
+.ribe{
+    justify-content:space-between;
+    font-size: 19px;
+    color: white;
+    padding: 11px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background-color:#E9636E ;
+    border: none;
+}
+.ribe:hover{
+    background-color:#E03747 ;
+    cursor: pointer;
+
+}
+.buttom{ 
+    background-color:#F48B7F; 
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center; 
+
+}
+.buttom .all{
+    word-spacing: 20px;
+  
+    color: aliceblue;
+}
+.all :hover{
+    color:#E03747 ;
+    cursor: pointer;
+}
+/* Media query for mobile devices */
+@media screen and (max-width: 780px) {
+    header {
+        background-color: aliceblue;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo-container{
+        color: black;
+    
+    }
+    .navigation-bar {
+        flex-direction: row;
+        width: 100%;
+        color: #000000;
+        font-size: 10px;
+    }
+    .navbar {
+        background-color: aliceblue;
+        color: #000000;
+        flex-direction: row;
+        width: 90%;
+        font-size: 10px;
+    }
+    .dropdown {
+        font-size: 10px;
+        background-color: aliceblue;
+        color: #000000;
+        width: 100%;
+    }
+    .dropdown .dropbtn {
+        background-color: aliceblue;
+        color: black;
+        width: 50%;
+        text-align: right;
+        font-size: 13px;
+    }
+    .dropdown-content {
+        background-color: aliceblue;
+        color: black;
+        position: relative;
+    }
+    .dropdown-content a {
+        background-color: aliceblue;
+        color: black;
+        text-align: right;
+    }
+    .pictext{
+        width: 768px;
+        max-height: 300px;}
+    .features ,.price {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-item ,.price-item {
+        width: 90%;
+        margin: 10px 0;
+    }
+.mdb{
+    margin-top: 10px;
+}
+.paragraph{
+    text-align: center;
+}
+.parag{
+    font-size: 14px;
+}
+.btn-order{
+    margin-left:5px ;
+}
+.btn-wedding{
+    margin-top: 50px;
+}
+} 
